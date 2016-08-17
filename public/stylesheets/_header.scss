@@ -1,0 +1,77 @@
+.HdrCtr{
+	width: 100%;
+	height: 100;
+	background-color: #FAA;
+	position: relative;
+}
+
+.logo{
+	background-image: url('/public/images/logo.png');
+	background-size:100%;
+    background-repeat: no-repeat;
+	float: left;
+	height: 400px;
+	width: 300px;
+	margin-left: 230px;
+	margin-top: -5px;
+}
+
+.searchboxcontainer{
+    margin-top: 40px;
+    margin-left: 30px;
+    display: block;
+}
+
+.searchbox{
+    -moz-border-radius: 3px 0 0 3px;
+    -webkit-border-radius: 3px 0 0 3px;
+    border-radius: 3px 0 0 3px;    
+    border: 0;  
+    border-radius: 5px;
+    // margin-top:30px;
+    // margin-left: 30px;
+    height: 40px;
+    width: 450px;
+    padding-left: 15px;
+    padding-right: 50px;
+    font-size: 15px;
+    font-color:black;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background: url('/public/images/search-icon.png');
+}
+
+
+.searchbutton{
+	background: url('/public/images/search-icon.png') center no-repeat;
+	background-size: 30px 45px;
+	border: 0 none;
+    // background: #1f7f5c url(search.png) center no-repeat;
+    width: 50px;
+    float: right;
+    padding: 0;
+    text-align: center;
+    height: 40px;
+    cursor: pointer;
+}
+
+
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color: white;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: white;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: white;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: white;
+
+
+.login
+{
+		float: right;
+}
