@@ -7,7 +7,6 @@ import { Home } from '../app/home/components/home.component';
 import { MenuReceipt } from '../app/menureceipt/components/menureceipt.component';
 
 
-
 @Component({
   selector: 'foodpark-app',
   template: `<foodpark-header></foodpark-header>
